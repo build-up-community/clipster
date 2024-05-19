@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clipster | Open Source Propriatory Vide Recorder
+A brief description of what the project does and its purpose.
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to set up the project on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your local pc:
+
+1. **Node.js** (version X.X.X or later) - [Download here](https://nodejs.org/)
+2. **Rust** and **Cargo** - [Installation Guide](https://www.rust-lang.org/tools/install)
+3. **Tauri CLI** - Install via Cargo:
+   ```sh
+   cargo install tauri-cli
+   ```
+
+### Installation
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/build-up-community/clipster.git
+   cd clipster
+   ```
+
+2. **Install Dependencies**:
+   ```sh
+   npm install -D
+   ```
+
+### Development
+
+Start the development server:
+
+```sh
+npm run tauri dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the application and you can begin developing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Recommended IDE Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For the best development experience, we recommend using the following tools:
 
-## Learn More
+- **[Visual Studio Code](https://code.visualstudio.com/)**: A powerful, open-source code editor.
+  - **Extensions**:
+    - **[Tauri Extension](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)**: Provides Tauri specific functionalities.
+    - **[rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)**: A Rust language server to improve development workflow with features like autocompletion and error checking.
 
-To learn more about Next.js, take a look at the following resources:
+### Additional Setup for VS Code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Install VS Code**: [Download and Install VS Code](https://code.visualstudio.com/)
+2. **Install Extensions**:
+   - Open VS Code
+   - Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
+   - Search for "Tauri" and install the Tauri extension.
+   - Search for "rust-analyzer" and install the Rust Analyzer extension.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+There are multiple ways to contribute to our project and make a meaningful impact. Choose the option that best fits your interests and expertise:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. GitHub Contributions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can contribute directly to the project by following our contribution guidelines on GitHub. Here's how you can get started:
+
+- **Explore Issues**: Check out our [issue tracker](link-to-issues) to find tasks and bugs that need attention.
+- **Fork and Pull Request**: Fork the repository, make your changes, and submit a pull request. Please adhere to our [contributing guidelines](link-to-guidelines) to ensure smooth collaboration.
+
+### 2. Mentorship and Leadership
+
+Join our [De-BUC Discord Server]() to mentor and lead a group of contributors. Here's how you can get involved:
+
+- **Join Discord**: Head over to our Discord server and find the project in the Projects channel.
+- **Lead a Group**: Take on a leadership role to guide contributors, offer support, and foster collaboration.
+
+We welcome contributions from developers of all skill levels. Whether you're a seasoned coder or just starting out, there's a place for you in our community.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Tauri](https://tauri.studio/)
+- [Rust](https://www.rust-lang.org/)
+- [Node.js](https://nodejs.org/)
+
+
+# Who Are We?
+
+This project is a [De-BUC]() Initiative. In a nutshell, we subscribe to the core ideology of "Apply to learn" regardless of your expertise and novicity. We are actively building things and learning centering around this principle check out our website to learn more about us at [www.officialbuc.com](www.officialbuc.com). The following were the community contributors:
+
+1. Shrikanth Naik | @Shrikanth-Naik | 
+2. Rohan Motukuri | @rohan-motukuri | motukuri.rohan@gmail.com
