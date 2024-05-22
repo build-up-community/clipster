@@ -12,7 +12,44 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": false,
+
+      "window": {
+        "all": false,
+        "center": false,
+        "close": true,
+        "create": false,
+        "hide": false,
+        "maximize": false,
+        "minimize": false,
+        "print": false,
+        "requestUserAttention": false,
+        "setAlwaysOnTop": false,
+        "setClosable": false,
+        "setContentProtected": false,
+        "setCursorGrab": false,
+        "setCursorIcon": false,
+        "setCursorPosition": false,
+        "setCursorVisible": false,
+        "setDecorations": false,
+        "setFocus": false,
+        "setFullscreen": false,
+        "setIcon": false,
+        "setIgnoreCursorEvents": false,
+        "setMaxSize": false,
+        "setMaximizable": false,
+        "setMinSize": true,
+        "setMinimizable": false,
+        "setPosition": false,
+        "setResizable": false,
+        "setSize": false,
+        "setSkipTaskbar": false,
+        "setTitle": false,
+        "show": false,
+        "startDragging": false,
+        "unmaximize": false,
+        "unminimize": false
+      }
     },
     "bundle": {
       "active": true,
@@ -59,7 +96,9 @@
         "height": 600,
         "resizable": true,
         "title": "Clipster - De-BUC Initiative - Open Source Video Clipper",
-        "width": 800
+        "width": 800,
+        "minHeight": 500,
+        "minWidth": 500
       }
     ]
   }
